@@ -1,0 +1,53 @@
+.block { 
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 100px;
+    background: #e1e1e1;
+    text-align: right;
+}
+
+a:link { 
+    text-decoration: none;
+    border-bottom: 1px dashed #000080;
+}
+
+a:hover {
+    border-bottom: none;
+}
+.divFlex {
+    display:flex;
+}
+.block1 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background: #734632;
+    color: #e1e1e1;
+    font-size: 100px;
+    text-align: center; 
+    line-height: 200px;
+
+}
+.but {
+    position: relative;
+    right: 760px;
+   }
+
+.icon1 {
+    background-image: url(button/glyphicons-halflings.png);
+    background-repeat: no-repeat;
+    background-position: 53% -1%;
+    width: 23px; height: 18px;
+    text-align: right;
+    border: none;
+    }
+.icon2 
+{
+    background-image: url(button/glyphicons-halflings.png);
+    background-repeat: no-repeat;
+    background-position: 47% -1%;
+    width: 23px; height: 18px;
+    text-align: right;
+    border: none;
+    }
